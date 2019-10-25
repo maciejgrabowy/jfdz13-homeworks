@@ -38,3 +38,8 @@ html {
 	cursor: pointer;
 }
 
+@media all and (max-width: 856px) {
+	.navigation__list {
+		flex-direction: column;
+	}
+}
