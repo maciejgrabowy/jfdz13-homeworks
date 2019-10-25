@@ -2,10 +2,6 @@ html {
 	box-sizing: border-box;
 }
 
-.hero {
-	background-color:
-}
-
 .header {
 	background-color: #e0ebe8;
 }
@@ -38,7 +34,7 @@ html {
 	cursor: pointer;
 }
 
-@media all and (max-width: 856px) {
+@media all and (max-width: 50em) {
 	.navigation__list {
 		flex-direction: column;
 	}
