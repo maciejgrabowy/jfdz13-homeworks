@@ -6,3 +6,12 @@ html {
 	background-color: #e0ebe8;
 }
 
+.navigation {
+	
+}
+
+.navigation__list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
