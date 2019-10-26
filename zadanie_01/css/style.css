@@ -91,13 +91,10 @@ body {
 .about__img {
 	object-fit: contain;
 	width: 50%;
-
 }
 
 .about__containter {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: center;
+text-align: center;
 }
 
 /*
