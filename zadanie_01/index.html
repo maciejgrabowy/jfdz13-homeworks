@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navigation">
-      <ul class="navigation__list" id="navigation">
+      <ul class="navigation__list list" id="navigation">
         <li class="navigation__element"><a class="navigation__link" href="#about"><i class="fas fa-address-card"></i> About</a></li>
         <li class="navigation__element"><a class="navigation__link" href="#interests"><i class="fas fa-exclamation"></i> Interests</a></li>
         <li class="navigation__element"><a class="navigation__link" href="#skills"><i class="fas fa-brain"></i> Skills</a></li>
@@ -34,19 +34,23 @@
     </section>
 
     <section class="interests" id="interests">
-      <h2>My interests</h2>
-      <ul class="interests__list">
-        <li class="interests__element">Web design</li>
-        <li class="interests__element">Translation</li>
-        <li class="interests__element">Gaming</li>
-        <li class="interests__element">Reading</li>
+      <h2 class="interests__title title">My interests</h2>
+      <ul class="interests__list list">
+        <li class="interests__element interests__element1">Web design<p class="interests__iconContainer"><i class="fas fa-crop-alt interests__icon"></i></p>
+        <p class="interests__description">Obviously</p></li>
+        <li class="interests__element interests__element2">Translation<p class="interests__iconContainer"><i class="fas fa-globe-americas interests__icon"></i></p>
+        <p class="interests__description">Polish-English and vice-versa</p></li>
+        <li class="interests__element interests__element3">Gaming<p class="interests__iconContainer"><i class="fas fa-gamepad interests__icon"></i></p>
+        <p class="interests__description">A fascinating medium</p></li>
+        <li class="interests__element interests__element4">Reading<p class="interests__iconContainer"><i class="fas fa-book-reader interests__icon"></i></p>
+        <p class="interests__description">Food for thought</p></li>
       </ul>
     </section>
 
     <section class="skills" id="skills">
-      <h2 class="skills__heading">Skills</h2>
+      <h2 class="skills__title title">Skills</h2>
       <p class="skills__paragraph">Basic knowledge: HTML, CSS and JS. Watch this space for updates!</p>
-      <ul>
+      <ul class="skills__list list">
         <li class="skills__element"><i class="fab fa-html5"></i></li>
         <li class="skills__element"><i class="fab fa-css3-alt"></i></li>
         <li class="skills__element"><i class="fab fa-js-square"></i></li>
