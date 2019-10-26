@@ -15,6 +15,12 @@ background-color: #a9d8cb;
 }
 
 /*
+* === REUSABLE ===
+*/
+
+
+
+/*
 * === NAV BAR ===
 */
 .navigation {
@@ -45,7 +51,6 @@ background-color: #a9d8cb;
 
 .navigation__element:hover {
 	background-color: #a9d8cb;
-	/*cursor: pointer;*/
 }
 
 @media all and (max-width: 50em) {
@@ -59,9 +64,6 @@ background-color: #a9d8cb;
 */
 
 .about {
-/*display: flex;
-flex-direction: column;
-align-items: center;*/
 background-color: chocolate;
 width: 80%;
 padding: 3%;
@@ -126,3 +128,51 @@ box-shadow: 1px 1px 16px 2px rgba(0,0,0,0.94);
 /*
 * === SKILLS ===
 */
+
+.skills {
+background-color: chocolate;
+width: 80%;
+padding: 3%;
+text-align: justify;
+margin: 3% auto;
+font-size: 30px;
+box-shadow: 1px 1px 16px 2px rgba(0,0,0,0.94);
+}
+
+.skills__title {
+	text-align: center;
+}
+
+.skills__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 5px;
+}
+
+.skills__element {
+	font-size: 40px;
+	width: 25rem;
+	height: auto;
+	background-color: pink;
+	text-align: center;
+	margin: 5px;
+	padding: 8px;
+}
+
+.skills__icon {
+	font-size: 100px;
+}
+
+.skills__iconContainer {
+	text-align: center;
+}
+
+.skills__description {
+	font-size: 20px;
+}
+
+.skills__paragraph {
+	text-align: center;
+}
