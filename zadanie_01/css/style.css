@@ -9,10 +9,9 @@ html {
 }
 
 body{
-font-family: "Lato";
+font-family: "Lato", "Arial", sans-serif;
 padding: 10px;
-
-
+background-color: #a9d8cb;
 }
 
 /*
@@ -21,7 +20,6 @@ padding: 10px;
 .navigation {
 	font-size: 2rem;
 	background-color: #e0ebe8;
-
 }
 
 .navigation__list {
@@ -54,4 +52,25 @@ padding: 10px;
 	.navigation__list {
 		flex-direction: column;
 	}
+}
+
+/*
+* === ABOUT ===
+*/
+
+.about {
+/*display: flex;
+flex-direction: column;
+align-items: center;*/
+background-color: chocolate;
+width: 80%;
+padding: 3%;
+text-align: justify;
+margin: 3% auto;
+font-size: 30px;
+box-shadow: 1px 1px 16px 2px rgba(0,0,0,0.94);
+}
+
+.about__welcome {
+text-align: center;
 }
