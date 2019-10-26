@@ -1,10 +1,4 @@
 :root {
-	--color1: #69D2E7;
-	--color2: #A7DBD8;
-	--color3: #E0E4CC;
-	--color4: rgb(231, 136, 63);
-	--color5: rgb(250, 125, 36);
-
 	--color1: #b09c69;
 	--color2: #b09c69;
 	--color3: #823c33;
@@ -91,20 +85,19 @@ body {
 }
 
 .about__photo {
+
 }
 
 .about__img {
-
 	object-fit: contain;
-	max-width: 100%;
+	width: 50%;
 
 }
 
 .about__containter {
 	display: flex;
 	flex-direction: row-reverse;
-
-
+	justify-content: center;
 }
 
 /*
